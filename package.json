@@ -12,5 +12,9 @@
   },
   "author": "",
   "license": "ISC",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "@example/module-a": "1.0.0",
+    "@example/module-b": "1.0.0"
+  }
 }
