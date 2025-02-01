@@ -8,11 +8,13 @@
     "./packages/*"
   ],
   "scripts": {
+    "dev:publish": "npm publish --workspaces --include-workspace-root",
     "start": "node index.js",
     "test": "npm run test --workspaces --if-present",
     "test:module-a": "npm test --workspace=./packages/module-a"
   },
   "//": {
+    "dev:publish": "Publish all the packages on npm registry",
     "test": "Run tests for all sub-packages",
     "test:module-a": "Run tests only for @example/module-a"
   },
