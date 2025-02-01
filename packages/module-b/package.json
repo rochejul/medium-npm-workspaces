@@ -4,7 +4,12 @@
   "description": "This is second module",
   "main": "index.js",
   "type": "module",
-  "scripts": {},
+  "scripts": {
+    "dev:linting": "eslint --config=eslint.config.js"
+  },
+  "//": {
+    "dev:linting": "Lint files"
+  },
   "author": "",
   "license": "ISC"
 }

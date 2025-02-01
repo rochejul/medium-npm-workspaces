@@ -8,12 +8,14 @@
     "./packages/*"
   ],
   "scripts": {
+    "dev:linting": "npm run dev:linting --workspaces --if-present",
     "dev:publish": "npm publish --workspaces --include-workspace-root",
     "start": "node index.js",
     "test": "npm run test --workspaces --if-present",
     "test:module-a": "npm test --workspace=./packages/module-a"
   },
   "//": {
+    "dev:linting": "Lint files over packages",
     "dev:publish": "Publish all the packages on npm registry",
     "test": "Run tests for all sub-packages",
     "test:module-a": "Run tests only for @example/module-a"
@@ -24,5 +26,9 @@
   "dependencies": {
     "@example/module-a": "1.0.0",
     "@example/module-b": "1.0.0"
+  },
+  "devDependencies": {
+    "eslint": "9.16.0",
+    "eslint-plugin-jest": "28.9.0"
   }
 }

@@ -1,4 +1,6 @@
 {
+  "eslint.workingDirectories": [{ "mode": "location" }],
+  "eslint.useFlatConfig": true,
   "jest.jestCommandLine": "npx jest --no-cache",
   "jest.nodeEnv": {
     "NODE_OPTIONS": "--experimental-vm-modules"
