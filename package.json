@@ -8,7 +8,13 @@
     "./packages/*"
   ],
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "test": "npm run test --workspaces --if-present",
+    "test:module-a": "npm test --workspace=./packages/module-a"
+  },
+  "//": {
+    "test": "Run tests for all sub-packages",
+    "test:module-a": "Run tests only for @example/module-a"
   },
   "author": "",
   "license": "ISC",
