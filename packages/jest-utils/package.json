@@ -1,0 +1,14 @@
+{
+  "name": "@example/jest-utils",
+  "version": "1.0.0",
+  "type": "module",
+  "private": "true",
+  "description": "Utility package around jest",
+  "main": "index.js",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/jest": "29.5.14",
+    "jest": "29.7.0"
+  }
+}
