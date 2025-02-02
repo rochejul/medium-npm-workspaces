@@ -17,7 +17,7 @@
   "author": "",
   "license": "ISC",
   "peerDependencies": {
-    "@example/jest-utils": "1.0.0"
+    "@example/jest-utils": "*"
   },
   "peerDependenciesMeta": {
     "@example/jest-utils": {
