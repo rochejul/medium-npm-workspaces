@@ -11,5 +11,11 @@
     "dev:linting": "Lint files"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "engines": {
+    "node": "^16.10.0 || ^18.12.0 || >=20.0.0"
+  },
+  "volta": {
+    "extends": "../../package.json"
+  }
 }
