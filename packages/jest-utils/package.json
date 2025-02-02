@@ -1,6 +1,6 @@
 {
   "name": "@example/jest-utils",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "type": "module",
   "private": "true",
   "description": "Utility package around jest",
